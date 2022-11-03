@@ -1,0 +1,20 @@
+.titulo-galeria{
+    height: 30vh;
+}
+
+.quartos-img {
+    width: 33%;
+    padding-bottom: 10px;
+}
+
+.quartos-informacoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quartos-informacoes li {
+    width: 25%;
+    text-align: left;
+    margin-top: 10px ;
+}
