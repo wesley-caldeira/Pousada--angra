@@ -1,0 +1,193 @@
+* { box-sizing: border-box;}
+body {
+  
+  margin: 0; /*tirando a margin*/
+  padding: 0; /*tirando o padding a distancia da borda*/
+  color: #3d3d3d; /*cor das letras*/
+  font-family: 'Source Sans Pro', sans-serif; /*tipo de fonte de letra*/
+  background-color: #fff;  /*cor de fundo de todo arquivo*/
+}
+.container {
+  max-width: 1024px;  /*largura maxima do container */
+}
+
+.topo {
+  position: fixed; /*faz ficar fixo */
+  width: 100%; /*define largura*/
+  background-color: #fff; /*cor de fundo*/
+  border-bottom: 1px solid #d5d5d5; /*formato da borda da caixa*/
+}
+
+.topo .container {
+    display: flex;  /*transforma o topo em display flex*/
+    align-items: center;  /*centralizar os itens no centro*/
+    justify-content: space-between;  /*mover os items para os cantos sem borda e dividir eles igualmente no meio */
+    width: 100%; /*definir a altura do menu principal*/
+    height: 60px; /*tamanho do menu*/
+    padding: 0 10px;  /*separar os itens do menu principal*/
+    margin: 0 auto;  /*tira a margin do menu principaç*/
+}
+
+.link-logotipo {
+    margin: 0 40px 0 0;  /*separar o logo a direita*/
+    font-size: 24px;  /*tamanho da fonte do logo*/
+    text-decoration: none;  /*tirar a decoraçao do logo*/
+    color: #3d3d3d;  /*definir a cor da letras do logo*/
+}
+
+.link-logotipo span {
+  color: #6592c9;  /*definir cor do span da logo*/
+}
+
+.link-topo {
+    text-transform: uppercase; /*todas as letras maiusculas*/
+    line-height: 18px;/*Espaçamentos das linhas*/
+    text-decoration: none;/*retirar a decoraçao*/
+    padding: 0px 15px 10px 15px; /*distancia das bordas*/
+    color: #3d3d3d  /*definir cor da letra*/
+}
+
+.link:hover {
+  border-bottom: 3px solid #6592c9;
+}
+
+.titulo-site {
+  background-image: url('../assets/img-fundo.jpg'); /*imagem de fundo principal*/
+  background-repeat: no-repeat;  /*fazer com que a imagem de fundo principal nao se repita*/
+  background-size: cover; /*estica o maximo possivel da imagem*/
+  height: 100vh;  /*a altura tera 100 centezimos da altura do navegador*/
+
+  display: flex; /*transforma em display flex*/
+  justify-content: center;  /*centralia o display flex*/
+  align-items: center;  /*alinha o item ao meio do eixo principal*/
+}
+
+.titulo-site-descricao {
+  color: #fff;  /*define a cor da letra*/
+  font-size: 28px;  /*tamanho da letra*/
+  background-color: #0a9077b3;  /*cor de fundo da descriçao*/
+  border: 1px solid;  /*define a borda da descricao*/
+  padding: 0 20px;  /**/
+  border-radius: 4px;  /*aredonda a borda em 4px*/
+  text-align: center;  /*ventraliza o texto*/
+}
+
+.quartos {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.quarto {
+  margin-right: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #00836a;
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.quarto a {
+  text-decoration: none;
+  color: #333;
+}
+
+.quarto a p {
+  text-align: center;
+}
+
+.quarto:last-child {
+  margin-right: 0px;
+}
+
+.tamanho-maximo-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.secao-container {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.secao-container h2{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+.descricoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.descricao {
+  display: flex;
+  width: 45%;
+  margin: 0 10px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.descricao-conteudo {
+  flex: 1 1 auto;
+}
+
+.descricao-img {
+  width: 100px;
+  height: 113px;
+  object-fit: cover;
+  margin-left:10px;
+}
+
+.rodape-copyright {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #3b7863;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+}
+
+.rodape {
+  background-color: #49997d;
+  color:#fff;
+}
+.principal
+.rodape h4 {
+  font-size: 22px;
+}
+
+.rodape-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rodape-info {
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.rodape-link{
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.rodape-icone {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.rodape-info a{
+  text-decoration: none;
+  color: #fff;
+}
