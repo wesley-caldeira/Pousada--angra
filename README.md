@@ -7,18 +7,6 @@
     <img src="responsividade-imagens\1020.gif"/>
 </p>
 
-### Tópicos 
-
-[Descrição do projeto](#descrição-do-projeto)
-
-[Funcionalidades](#funcionalidades)
-
-[Deploy da Aplicação](#deploy-da-aplicação-dash)
-
-[Pré-requisitos](#pré-requisitos)
-
-[Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
-
 ## Descrição do projeto 
 
 <p align="justify">
