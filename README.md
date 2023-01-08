@@ -21,7 +21,7 @@ Funcionalidade 1:   Navegação entre a pagina por meio de links
 
 Funcionalidade 2:   Navegação com localizaçao para o envio para o google mapas
 
-Funcionalidade 3:   Responsividade para 1020px, 900px, 420px
+Funcionalidade 3:   Responsividade para 1020px, 768px, 425px
 
 ## Layout
 
